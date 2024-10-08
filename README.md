@@ -1,4 +1,4 @@
-# Weather-Forecast
+# Weather Forecast
 ![MIT License](https://img.shields.io/badge/License-MIT-green) 
 ![TypeScript](https://img.shields.io/badge/TypeScript-blue.svg?logo=typescript&style=flat)
 [![Powered by Vite](https://img.shields.io/badge/powered%20by-Vite-646CFF.svg)](https://vitejs.dev/)
@@ -7,16 +7,17 @@
 
 ## Description
 
-Allows you to 
+Allows you to see the weather forecast for your city.
 
 ## 📁 Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
+- [Features](#Features)
 - [Contributing](#contributing)
 
 ## Installation
 
-- If you want to run this app locally on your machine, follow these instructions. Otherwise, go to [this URL](https://weather-forecast-pnck.onrender.com/) and follow the usage instructions
+- If you want to run a server locally on your machine, follow these instructions. If you just want to use the app, go to [this URL](https://weather-forecast-pnck.onrender.com/) and follow the usage instructions
 ```shell
 # Clone this Repository:
 git clone https://github.com/Dan-Swarts/weather-forecast.git
@@ -38,17 +39,36 @@ npm run start
 
 ## Usage
 
-- step 1
+- Follow [this URL](https://weather-forecast-pnck.onrender.com/):
+```shell
+https://weather-forecast-pnck.onrender.com/
+```
 
-![Add a screenshot](./relative/path/to/img.jpg?raw=true)
+- Search for a city's weather forecast
 
-- second step
+<img 
+    src="assets/forecast.gif" 
+    alt="Types 'London' into the search bar, and a 5-day forecast appears" width="400" 
+/>
 
-![Add a screenshot](./relative/path/to/img.jpg?raw=true)
+## Features
 
-- third step
 
-![Add a screenshot](./relative/path/to/img.jpg?raw=true)
+- Use location history
+
+<img 
+    src="assets/history.gif" 
+    alt="Clicks on previously searched for cities to quickly see their forecasts" width="400" 
+/>
+
+
+- Delete items from history 
+
+<img 
+    src="assets/deleteHistory.gif" 
+    alt="Clicks on the trash icon next to " 
+    width="400" 
+/>
 
 
 ## Questions
